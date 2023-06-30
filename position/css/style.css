@@ -1,0 +1,35 @@
+.section-fist-task {
+    display: flex;
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+
+.section-fist-task-red-block {
+    position: relative;
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    margin-right: 133px;
+    /* Here it was written margin-left: 29px, 
+    but it should be correct left: 29px, 
+    because when our element is specified position: relative;, 
+    then the indents are indicated without the word "margin"*/
+    left: 29px;
+}
+    
+.section-fist-task-green-block {
+    /* Here it was written position: fixed, 
+    but it should be correct position: relative, 
+    because the element must be 
+    positioned relative to the parent*/
+    position: relative;
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    /* Here it was written margin-right: 29px, 
+    but it should be correct right: 29px, 
+    because when our element is specified position: relative;, 
+    then the indents are indicated without the word "margin"*/
+    right: 29px;
+}
