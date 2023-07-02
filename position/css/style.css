@@ -1,11 +1,12 @@
 .section-fist-task {
     display: flex;
     position: static;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
 .section-fist-task-red-block {
+    margin: 0 auto;
     position: relative;
     background-color: red;
     width: 250px;
@@ -19,6 +20,7 @@
 }
     
 .section-fist-task-green-block {
+    margin: 0 auto;
     /* Here it was written position: fixed, 
     but it should be correct position: relative, 
     because the element must be 
