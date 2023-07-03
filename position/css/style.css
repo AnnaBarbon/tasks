@@ -11,7 +11,7 @@
     background-color: red;
     width: 250px;
     height: 250px;
-    margin-right: 133px;
+    right: 133px;
     /* Here it was written margin-left: 29px, 
     but it should be correct left: 29px, 
     because when our element is specified position: relative;, 
